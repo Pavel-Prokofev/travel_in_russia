@@ -1,0 +1,91 @@
+.photo-grid {
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: calc(100% - 16px - 16px);
+  padding-bottom: 64px;
+  display: grid;
+  gap: 12px;
+}
+
+@media screen and (min-width: 321px) {
+  .photo-grid {
+    padding-left: 4%;
+    padding-right: 4%;
+    max-width: calc(100% - 4% - 4%);
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+  }
+}
+
+@media screen and (min-width: 545px) {
+  .photo-grid {
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 16px;
+    max-width: calc(100% - 24px - 24px);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .photo-grid {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 92px;
+    max-width: calc(928px - 3% - 3%);
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .photo-grid {
+    padding-left: 2%;
+    padding-right: 2%;
+    gap: 14px;
+    max-width: calc(928px - 2% - 2%);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .photo-grid {
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: calc(928px - 1% - 1%);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .photo-grid {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .photo-grid {
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 1184px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  .photo-grid {
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

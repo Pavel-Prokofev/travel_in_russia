@@ -1,0 +1,16 @@
+.page {
+  padding-top: 16px;
+  font-family: 'Inter', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-style: normal;
+  color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
+}
+
+@media screen and (min-width: 321px) {
+  .page {
+    padding-top: 28px;
+  }
+}
