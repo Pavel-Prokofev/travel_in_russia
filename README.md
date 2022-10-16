@@ -25,4 +25,4 @@ _Проект о путешествиях по России, обзор инте
 
 ***
 
-* [Ссылка на сайт роекта Путешествие по России](https://pavel-prokofev.github.io/travel_in_russia/index.html)
+* [Ссылка на сайт проекта Путешествие по России](https://pavel-prokofev.github.io/travel_in_russia/index.html)
