@@ -1,5 +1,5 @@
 .header {
-  max-width: 1440px;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,11 +25,5 @@
 @media screen and (min-width: 1025px) {
   .header {
     padding-bottom: 56px;
-  }
-}
-
-@media screen and (min-width: 1281px) {
-  .header {
-    padding-bottom: 62px;
   }
 }

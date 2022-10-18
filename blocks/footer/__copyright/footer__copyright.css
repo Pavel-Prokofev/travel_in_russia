@@ -5,7 +5,7 @@
   line-height: 1;
 }
 
-@media screen and (min-width: 545px) {
+@media screen and (min-width: 700px) {
   .footer__copyright {
     line-height: 1.14;
     justify-self: end;

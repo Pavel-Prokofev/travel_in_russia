@@ -11,10 +11,15 @@
   background: url("../../../images/cover-trains.jpg") no-repeat center/cover;
   
   width: 100%;
-  height: calc(100vw*0.625);
-  max-height: 740px;
+  min-height: calc(100vw*0.625);
   position: relative;
   z-index: 1;
+}
+
+@media screen and (min-width: 1184px) {
+  .cover__link-background {
+    min-height: 740px;
+  }
 }
 
 .cover__link-background::after {

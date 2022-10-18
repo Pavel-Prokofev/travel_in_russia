@@ -5,13 +5,12 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 1.1;
-  white-space: pre-line;
+  max-width: 720px;
 }
 
 @media screen and (min-width: 450px) {
   .lead__title {
     font-size: 52px;
-    line-height: 1.1;
     padding-bottom: 24px;
   }
 }
@@ -27,7 +26,6 @@
 @media screen and (min-width: 720px) {
   .lead__title {
     font-size: 96px;
-    line-height: 1.04;
     padding-bottom: 32px;    
   }
 }
